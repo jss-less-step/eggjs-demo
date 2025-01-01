@@ -1,0 +1,10 @@
+{
+	"root": true,
+	"extends": ["eslint-config-egg/typescript", "eslint-config-egg/lib/rules/enforce-node-prefix", "prettier"],
+	"plugins": ["prettier"],
+	"rules": {
+		// 可以根据需要自定义 ESLint 的规则
+		"prettier/prettier": ["error", { "trailingComma": "none" }],
+		"comma-dangle": ["error", "never"]
+	}
+}
