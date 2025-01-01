@@ -10,6 +10,7 @@ logs/
 *.swp
 *.lock
 *.js
+*.txt
 .eslintcache
 
 app/**/*.js

@@ -3,10 +3,12 @@
 /* eslint-disable */
 
 import 'egg';
+import ExportDog from '../../../app/controller/dog';
 import ExportNews from '../../../app/controller/news';
 
 declare module 'egg' {
   interface IController {
+    dog: ExportDog;
     news: ExportNews;
   }
 }
